@@ -6,22 +6,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="gd.mytest1.MainActivity">
+    tools:context="gd.mytest1.GlideActivity">
 
-    <TextView
-        android:layout_width="match_parent"
+    <Button
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:onClick="toGlide"
-        android:text="toGlide"/>
+        android:onClick="loadImage"
+        android:text="Load Image"
+        />
 
-    <TextView
+    <ImageView
+        android:id="@+id/image_view"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:onClick="toConstraintLayout"
-        android:text="toConstraintLayout"/>
-
-
-
+        android:layout_height="match_parent"/>
 </LinearLayout>
