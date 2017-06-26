@@ -1,10 +1,12 @@
-package gd.mytest1;
+﻿package gd.mytest1;
 
 import android.os.Parcel;
 import android.os.Parcelable;
 
 /**
  * Created by zhaofuqi on 2017/4/21.
+这是一个很寂寞的天
+吓着有些伤心的雨
  */
 
 public class Book implements Parcelable {
