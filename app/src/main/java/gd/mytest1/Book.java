@@ -26,8 +26,17 @@ public class Book implements Parcelable {
         this.price = price;
     }
 
+    public String getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+
     private String name;
     private int price;
+    private String author;
 
     public Book() {
     }
