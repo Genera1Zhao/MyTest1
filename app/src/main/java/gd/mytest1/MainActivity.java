@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         System.out.print("git1");
+        System.out.print("git2");
     }
 
     public void toGlide(View view) {
