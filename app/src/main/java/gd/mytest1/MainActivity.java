@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         System.out.print("git3");
         System.out.print("git4");
         System.out.print("git5");
+        System.out.print("git6");
     }
 
     public void toGlide(View view) {
