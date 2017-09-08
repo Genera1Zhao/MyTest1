@@ -14,12 +14,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        System.out.print("git1");
-        System.out.print("git2");
-        System.out.print("git3");
-        System.out.print("git4");
-        System.out.print("git5");
-        System.out.print("git6");
+        System.out.print("git10");
+        System.out.print("git20");
+
     }
 
     public void toGlide(View view) {
